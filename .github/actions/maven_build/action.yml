@@ -1,0 +1,10 @@
+name: Maven Build
+description: A GitHub Action to build a Maven project
+runs:
+  using: composite
+  steps:
+    - run: |
+        echo "Update me with the necessary commands"
+      shell: bash
+    - uses: ./.github/actions/maven_build
+
